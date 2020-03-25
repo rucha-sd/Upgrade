@@ -1,0 +1,118 @@
+@font-face{
+    font-family: Roboto;
+    src: url(./Roboto-Regular.ttf);
+}
+body{
+    font-family: Roboto;
+    background-color: rgba(128, 128, 128, 0.11);
+}
+.card{
+    padding: 5vh;
+    border-radius: 0.7rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:768px){
+    .card{
+        padding: 2vh;
+    }
+}
+.logo img{
+    width: 13vh;
+    height: 13vh;
+    padding: 3vh;
+    border: 1px solid rgba(255, 119, 0, 0.26);
+    border-radius: 10px;
+    background-color: rgba(255, 118, 0, 0.08);
+}
+.header{
+    margin-bottom: 5vh;
+}
+.row{
+    margin: 0;
+}
+.alignright{
+    float: right;
+    margin-left: auto;
+}
+#big{
+    font-size: x-large;
+    font-weight: bold;
+}
+#purple{
+    color: rgb(131, 36, 160);
+}
+#darkpurple{
+    color: rgb(92, 18, 114);
+}
+#grey{
+    color: rgb(75, 71, 71);
+    font-weight: normal;
+}
+a{
+    color: rgba(4, 88, 114, 0.795);
+}
+#link {
+    padding: 1rem 0;
+}
+p{
+    margin-bottom: 0;
+    font-weight: 600;
+}
+i{
+    color: rgb(131, 36, 160);
+}
+.main{
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
+.main p{
+    line-height: 1.7rem;
+}
+#next{
+    left: 50%;
+}
+.bottom{
+    margin-top: 5vh;
+}
+.card-inner{
+    text-align: center;
+    background-color: rgba(255, 118, 0, 0.08);
+    border: none;
+    width: 100%;
+}
+small{
+    font-size: x-small;
+}
+.btn{
+    outline: none;
+    background-color: rgba(255, 119, 0, 0.87);
+    border-color: rgba(255, 119, 0, 0.87);
+    color: white;
+    margin-top: 3vh;
+    transition: none;
+    user-select: none;
+}
+.btn:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none;
+  
+  }
+  .btn:active{
+      box-shadow: none;
+      outline: none;
+      color: white;
+      -webkit-box-shadow: none;
+      -webkit-user-select: none;
+  }
+.upload{
+    color: white;
+}
