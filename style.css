@@ -95,6 +95,7 @@ small{
     margin-top: 3vh;
     transition: none;
     user-select: none;
+    cursor: pointer;
 }
 .btn:focus{
     box-shadow: none;
